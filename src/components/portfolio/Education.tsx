@@ -14,10 +14,10 @@ export function Education() {
 
         <ol className="relative mt-[34px] space-y-[21px] border-l border-border pl-[34px]">
           {EDUCATION.map((e, i) => (
-            <Reveal as="li" key={e.school} delay={i * 90}>
+            <Reveal as="li" key={e.school} delay={i * 90} className="relative">
               <span
                 aria-hidden="true"
-                className="absolute -left-[9px] grid size-[18px] place-items-center rounded-full border border-border bg-primary"
+                className="absolute -left-[43px] top-[21px] grid size-[18px] place-items-center rounded-full border border-border bg-primary"
               />
               <div className="card-warm lift-hover p-[21px]">
                 <div className="flex items-start gap-[8px]">
